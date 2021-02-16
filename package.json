@@ -1,0 +1,19 @@
+{
+  "name": "whitelist",
+  "version": "0.2.0",
+  "license": "UNLICENSED",
+  "authors": ["Near Inc <hello@near.org>", "Aaron Luhning <vitalpoint.ai> (AssemblyScript translation)"],
+  "edition": "2018",
+
+  "scripts": {
+    "build": "asb",
+    "build:debug": "asb --target debug",
+    "test": "asp --nologo"
+  },
+  "dependencies": {
+    "near-sdk-as": "2.2.4"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
